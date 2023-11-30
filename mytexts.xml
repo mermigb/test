@@ -1,1 +1,578 @@
-My Name is ......
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<doc exportdate="Fri 2023.12.01 02:41:04 AM IST" lang="en">
+    <head>
+        <bundlecomment value="This contains application strings to be used in the LUFAS application."/>
+        <bundlepackage value="lufas.resources"/>
+        <filename value="export_en.xml"/>
+        <version value="1.00_015"/>
+    </head>
+    <records>
+        <record id="form_section_lang:instruction_text:lookup.id.1501">
+            <text><p>Begin the audit with a prayer.</p><p>Ask the questions in this section while meeting with the bishop and the ward clerk for finances. When possible, you are encouraged to also ask the bishop’s counselors and other clerks (if applicable) these questions. For those not in the meeting, you may ask the questions in person, by phone, or by email.</p><i>Note:</i> While the bishop is present for this section of the audit, also complete the following to get the information you will need for the Payments section:<ol><li>Ask the <strong>bishop</strong> if he <strong>or any of his immediate family members received fast-offering assistance</strong> during the six months of the audit period. (See “Immediate family members of the bishop or stake president” in the Definitions section.)</li><li>If the answer is yes, <strong>make a list of the names of those who received assistance.</strong> When you test payments for fast-offering assistance, you will include payments for the people named on the list.</li></ol></text>
+        </record>
+        <record id="page_label_lang:api.version.parameterized">
+            <text>API Version: {0} ({1})</text>
+        </record>
+        <record id="page_label_lang:application.version.parameterized">
+            <text>Application Version: {0} ({1})</text>
+        </record>
+        <record id="page_label_lang:area.auditor.resource.library">
+            <text>Area Auditor Resource Library</text>
+        </record>
+        <record id="page_label_lang:area.subtitle">
+            <text>To see the most recent date when new leader and annual trainings were completed, please select an area and coordinating council.</text>
+        </record>
+        <record id="page_label_lang:audit.committee.has.reviewed.exception.parameterized">
+            <text>The {0} audit committee has reviewed this exception.</text>
+        </record>
+        <record id="page_label_lang:auditFormVersionAtBottom">
+            <text>Audit Form Version (Located at bottom of Audit Form)</text>
+        </record>
+        <record id="page_label_lang:bishop.was.transaction.approver.alt.instructions">
+            <text>The auditing system has found evidence of the bishop’s approval.<br/><br/>No action is required.</text>
+        </record>
+        <record id="page_label_lang:cc.subtitle">
+            <text>To see the most recent date when new leader and annual trainings were completed, please select a coordinating council.</text>
+        </record>
+        <record id="page_label_lang:corrective.actions">
+            <text>Corrective actions:</text>
+        </record>
+        <record id="page_label_lang:dacm.sign.off.instructions">
+            <text>The district audit committee chairman sign-off is completed by the district audit committee chairman.</text>
+        </record>
+        <record id="page_label_lang:exception.instruction.please.create.corrective.action">
+            <text>Please create your corrective action for this exception. Submit this exception’s corrective action to the {0} by checking the {1} checkbox at the bottom of this page.</text>
+        </record>
+        <record id="page_label_lang:exception.instruction.please.review.this.exception">
+            <text>Please review this exception and corrective action. Submit this exception’s corrective action to the {0} by checking the {1} checkbox at the bottom of this page. If the exception has already been reviewed by a {2} member, no further action is required for this exception.</text>
+        </record>
+        <record id="page_label_lang:feature.are.you.sure.you.want.to.delete.this.file">
+            <text>Are you sure you want to delete this file?</text>
+        </record>
+        <record id="page_label_lang:feature.audit.cycle.timeline">
+            <text>Audit Cycle Timeline</text>
+        </record>
+        <record id="page_label_lang:feature.delete.uploaded.file">
+            <text>Delete Uploaded File</text>
+        </record>
+        <record id="page_label_lang:feature.download.all">
+            <text>Download All</text>
+        </record>
+        <record id="page_label_lang:feature.secondary.reviewer.name">
+            <text>Secondary Reviewer Name</text>
+        </record>
+        <record id="page_label_lang:feature.unit.leader.name">
+            <text>Unit Leader Name</text>
+        </record>
+        <record id="page_label_lang:macm.sign.off.instructions">
+            <text>The mission audit committee chairman sign-off is completed by the mission audit committee chairman.</text>
+        </record>
+        <record id="page_label_lang:no.training.rows.found">
+            <text>No training rows found</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.a.new.stake.or.district.is.defined.as.a.unit.created.in.the.prior.six.months">
+            <text>A new stake or district is defined as a unit created in the prior six months.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.a.new.stake.or.district.president.should.receive.training.from.the.assistant.area.auditors">
+            <text>A new stake or district president should receive training from the Assistant Area Auditors within 60 days of being called.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.a.reorganization.is.defined.as.a.change.in.stake.president.or.audit.committee.chairman.in.the.prior.six.months">
+            <text>A reorganization is defined as a change in stake president or audit committee chairman in the prior six months.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.a.stake.or.district.is.considered.to.have.a.potential.audit.vacancy">
+            <text>A stake or district is considered to have a potential audit vacancy if, on average, stake auditors are asked to perform audits for more than three units.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.a.stake.or.district.is.considered.to.have.an.audit.vacancy">
+            <text>A stake or district is considered to have an audit vacancy if there is not a stake or district audit committee chair or at least two audit committee members entered into LCR (Leader and Clerk Resources).</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.a.unit.is.considered.to.have.repeat.exceptions.if.the.same.question.is.marked.as.an.exception.for.the.prior.two.audit.periods">
+            <text>A unit is considered to have repeat exceptions if the same question is marked as an exception for the prior two audit periods. The tile updates on the day after the audit due date.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.a.unit.will.appear.in.this.tile.if.the.unit’s.audit.was.submitted.after.the.due.date.for.the.prior.two.audit.periods">
+            <text>A unit will appear in this tile if the unit’s audit was submitted after the due date for the prior two audit periods. This tile updates on the day after the audit due date.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.all.positions">
+            <text>All Positions</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.all.stakes.or.districts.should.receive.training.from.the.assistant.area.auditor.annually">
+            <text>All stakes or districts should receive training from the Assistant Area Auditor annually.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.an.exception.is.resolved.when.the.audit.committee.confirms.the.corrective.action.has.been.implemented.by.the.unit.leader">
+            <text>An exception is resolved when the audit committee confirms the corrective action has been implemented by the unit leader. Corrective actions should be completed within 30 days of the audit period ending. Corrective actions implemented after the due date are shown in the graphs below after the yellow line.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.annual.last.trained">
+            <text>Annual Last Trained</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.annual.training.due">
+            <text>Annual Training Due</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.annual.training.type">
+            <text>Annual Training Type</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.area.audit.signed.off">
+            <text>Area Audit Signed Off</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.as.of">
+            <text>As of {0}</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.ascending">
+            <text>Ascending</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.assistant.area.auditor.marked.question.as.being.answered.incorrectly">
+            <text>Assistant Area Auditor Marked Question as Being Answered Incorrectly</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.assistant.area.auditor.marked.question.as.having.a.weak.corrective.action.plan">
+            <text>Assistant Area Auditor Marked Question as Having a Weak Corrective Action Plan</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.assistant.area.auditors">
+            <text>Assistant Area Auditors</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.committee">
+            <text>Audit Committee</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.committee.chairman.vacancy">
+            <text>Audit Committee Chairman Vacancy</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.committee.member.vacancy">
+            <text>Audit Committee Member Vacancy</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.period.due.date">
+            <text>Audit Period Due Date</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.resolutions">
+            <text>Audit Resolutions</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.status">
+            <text>Audit Status</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.submission.date">
+            <text>Audit Submission Date</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.vacancies">
+            <text>Audit Vacancies</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audit.vacancy">
+            <text>Audit Vacancy</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audits.not.started">
+            <text>Audits Not Started ({0})</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.audits.not.submitted.from.the.prior.two.audit.periods">
+            <text>Audits Not Submitted from the Prior Two Audit Periods</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.average.number.of.days.to.submit.an.audit">
+            <text>Average Number of Days to Submit an Audit</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.change.date">
+            <text>Change Date</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.change.type">
+            <text>Change Type</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.click.here.to.follow.link">
+            <text>Click here to follow link.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.contact.help">
+            <text>Contact Help</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.current.exceptions">
+            <text>Current Exceptions</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.current.training">
+            <text>Current Training</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.dashboard.view">
+            <text>Dashboard View</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.date.submitted">
+            <text>Date Submitted</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.days.to.submission">
+            <text>Days to Submission</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.days.to.submit.an.audit">
+            <text>Days to Submit an Audit</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.descending">
+            <text>Descending</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.email.address">
+            <text>Email Address</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.exception">
+            <text>Exception</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.exception.trending">
+            <text>Exception Trending</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.exception.trends">
+            <text>Exception Trends</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.exceptions">
+            <text>Exceptions:</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.export.and.print">
+            <text>Export and Print</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.five.pending.stake.president.signoff">
+            <text>5 - Pending Stake President Signoff</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.four.pending.stake.audit.committee.signoff">
+            <text>4 - Pending Stake Audit Committee Signoff</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.if.you.need.help.or.have.questions">
+            <text>If you need help or have questions, contact your Assistant Area Auditor.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.in.progress.audits">
+            <text>In Progress Audits ({0})</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.it.is.not.required.to.select.all.payments">
+            <text>It is not required to select all payments recommended for selection. Recommendations are made based on the inherent risk of a transaction, and audit committees should consider reviewing payment selections when there are significant differences between the payments recommended and the payments selected for testing.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.key.indicators">
+            <text>Key Indicators</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.last.signoff">
+            <text>Last Signoff</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.late">
+            <text>Late</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.late.colon">
+            <text>Late:</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.link.to.selected.stake.audits">
+            <text>Link to Selected Stake Audits</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.midyear">
+            <text>Midyear {0}</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.new.leader.last.trained">
+            <text>New Leader Last Trained</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.new.leader.training.late">
+            <text>New Leader Training Late</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.new.leader.training.pending">
+            <text>New Leader Training Pending</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.new.leader.training.type">
+            <text>New Leader Training Type</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.new.stake">
+            <text>New Stake</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.new.stakes">
+            <text>New Stakes</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.no.results.found">
+            <text>No Results Found</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.not.started.audits">
+            <text>Not Started Audits ({0})</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.number.of.days.to.submit.an.audit">
+            <text>Number of Days to Submit an Audit</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.on.time">
+            <text>On Time:</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.one.hover.the.mouse.over.the.table.three.dots">
+            <text>1. Hover the mouse over the table; three dots will appear in the upper right corner of the table. 2. Click the three dots and choose Export Data. 3. Once the data is exported to a spreadsheet, use the print feature to print the table. Note: Column widths may not be adjusted.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.one.not.started">
+            <text>1 - Not Started</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.parent.unit.name">
+            <text>Parent Unit Name</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.payments.recommended.for.selection.vs.selected.for.testing">
+            <text>Payments Recommended for Selection vs. Selected for Testing</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.pending.area.audit.review">
+            <text>Pending Area Audit Review</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.pending.sign.off.from">
+            <text>Pending Sign-off from:</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.percent.selected">
+            <text>Percent Selected</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.phone.number">
+            <text>Phone Number</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.position.changed">
+            <text>Position Changed</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.questions.answered.incorrectly">
+            <text>Questions Answered Incorrectly</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.recommended.payments.selected.for.testing">
+            <text>Recommended Payments Selected for Testing</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.recommended.payments.vs.selected.for.testing">
+            <text>Recommended Payments vs. Selected for Testing</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.recommended.vs.selected">
+            <text>Recommended vs Selected</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.reorganization">
+            <text>Reorganization</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.repeat.exception">
+            <text>Repeat Exception</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.repeat.exceptions">
+            <text>Repeat Exceptions</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.repeat.late.audits">
+            <text>Repeat Late Audits</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.required">
+            <text>(Required)</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.resolution.date">
+            <text>Resolution Date</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.resolved">
+            <text>Resolved:</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.six.submitted">
+            <text>6 - Submitted</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.sort.column">
+            <text>Sort Column</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.sort.order">
+            <text>Sort Order</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.stake">
+            <text>Stake {0}</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.stake.changes">
+            <text>Stake Changes</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.stake.president.and.stake.audit.committee.chairman">
+            <text>Stake President and Stake Audit Committee Chairman</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.stake.question">
+            <text>Stake - Question {0} - {1}</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.stake.reorganization">
+            <text>Stake Reorganization</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.stake.training">
+            <text>Stake Training</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.submitted.audits">
+            <text>Submitted Audits ({0})</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.suggested">
+            <text>(Suggested)</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.this.key.indicator.may.change">
+            <text>This key indicator may change depending on the timing of the Assistant Area Auditor’s review.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.this.tile.shows.the.most.common.exceptions">
+            <text>This tile shows the most common exceptions from the current audit period in a ward or stake.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.three.pending.unit.leader.signoff">
+            <text>3 - Pending Unit Leader Signoff</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.to.select.multiple.items">
+            <text>To select multiple items in a filter, hold down CTRL (or Command on a Mac) then left click on each item.</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.top.current.exceptions">
+            <text>Top Current Exceptions</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.total.audits">
+            <text>Total Audits</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.total.recommended">
+            <text>Total Recommended</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.two.pending.stake.auditor.signoff">
+            <text>2 - Pending Stake Auditor Signoff</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.type.of.change">
+            <text>Type of Change</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.unit.progress.chart">
+            <text>Unit Progress Chart</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.unit.summary.table">
+            <text>Unit Summary Table</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.value.primary">
+            <text>{0} (Primary)</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.value.semicolon.value">
+            <text>{0}; {1}</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.ward">
+            <text>Ward {0}</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.ward.question">
+            <text>Ward - Question {0} - {1}</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.weak.corrective.actions">
+            <text>Weak Corrective Actions</text>
+        </record>
+        <record id="page_label_lang:powerBI.dashboard.year.end">
+            <text>Year-end {0}</text>
+        </record>
+        <record id="page_label_lang:preventive.actions">
+            <text>Preventive actions:</text>
+        </record>
+        <record id="page_label_lang:question.check.or.document.number.comments">
+            <text>Check or Document Number {0} Comments</text>
+        </record>
+        <record id="page_label_lang:recreation.camp.audit.form">
+            <text>Recreation Camp Audit Form</text>
+        </record>
+        <record id="page_label_lang:sac.complete.ready.for.district.president.review.district">
+            <text>The district audit committee has completed the review, and I submit this audit.</text>
+        </record>
+        <record id="page_label_lang:sac.complete.ready.for.district.president.review.ward">
+            <text>The district audit committee has reviewed this audit, and it is ready for the district president’s review.</text>
+        </record>
+        <record id="page_label_lang:sac.complete.ready.for.mission.president.review.mission">
+            <text>The mission audit committee has completed the review, and I submit this audit.</text>
+        </record>
+        <record id="page_label_lang:sac.complete.ready.for.mission.president.review.ward">
+            <text>The mission audit committee has reviewed this audit, and it is ready for the mission president’s review.</text>
+        </record>
+        <record id="page_label_lang:sacc.sign.off.parameterized">
+            <text>I have completed my review of this audit and it is ready for the {0} president's review.</text>
+        </record>
+        <record id="page_label_lang:sacm.sign.off.parameterized">
+            <text>The {0} audit committee sign-off is completed by the {1} audit committee chairman.</text>
+        </record>
+        <record id="page_label_lang:select.area">
+            <text>Select an Area</text>
+        </record>
+        <record id="page_label_lang:stakeBI.auditProgress">
+            <text>Audit Progress</text>
+        </record>
+        <record id="page_label_lang:stakeBI.dashboard">
+            <text>Stake Dashboard</text>
+        </record>
+        <record id="page_label_lang:unit.leader.sign.off.explanation.parameter">
+            <text>Once a Corrective Action Plan has been developed for any exceptions and you are ready to submit the audit to the {0}, please check the box below.</text>
+        </record>
+        <record id="page_label_lang:whats.new.year.end.2023.release.message.short">
+            <text>Whats New Year End 2023 Release Message</text>
+        </record>
+        <record id="page_label_lang:whats.new.year.end.2023.release.message.title">
+            <text>What's New in the Year End Release</text>
+        </record>
+        <record id="fss_lang:question_text:lookup.id.6440">
+            <text>Do leaders and clerks keep their <u>Church Account</u> passwords confidential and private?</text>
+        </record>
+        <record id="fss_lang:question_text:lookup.id.6473">
+            <text>Does the payment have two <u>independent and authorized</u> approvals?</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6473">
+            <text>Does the payment have two <u>independent</u> and authorized approvals?</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6449.6525">
+            <text>Did the unit hold a fundraising event during the past 12 months? If a fundraising event was not held, mark the question N/A. If a fundraising event was held and met all the criteria below, mark the question "Yes." If the fundraising event did not meet all of the criteria below, mark the question "No."</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6376.6377.6546">
+            <text>Does the payment have two independent and authorized approvals?</text>
+        </record>
+        <record id="fss_lang:help_text:lookup.id.6582">
+            <text><p>Ask the bishop and the ward clerk for finances to explain the ward’s process for preparing the deposit and depositing the funds in the bank.</p><i>Note:</i> As needed, help the bishop and the ward clerk for finances understand the importance of following the applicable process below:<br/><b>Where a 24-hour depository is available or the bank is open on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received?</li><li>Are the funds always deposited into a Church-approved bank account on the same day they are opened and verified?</li></li><li>Are the funds always taken to the bank by a member of the bishopric and another Melchizedek Priesthood holder?</li></ul><b>Where a 24-hour depository is not available and the bank is closed on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received?</li><li>Are the funds always kept secure until they are deposited?</li><li>Are the funds always deposited into a Church-approved bank account on the first business day after they are opened and verified?</li><li>Before processing donations on the next Sunday, do a member of the bishopric and the ward clerk for finances always compare the previous week’s bank-validated deposit receipt to the previous week’s deposit records and sign the receipt to show they verified that the correct amount was deposited?</li></ul></text>
+        </record>
+        <record id="fss_lang:help_text:lookup.id.6583">
+            <text><p>Ask the bishop and the ward clerk for finances to explain the ward’s process for preparing the deposit and depositing the funds in the bank.</p><i>Note:</i> As needed, help the bishop and the ward clerk for finances understand the importance of following the applicable process below:<br/><b>Where a 24-hour depository is available or the bank is open on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received? </li><li>Are the funds always deposited into a Church-approved bank account on the same day they are opened and verified?</li><li>Are the funds always taken to the bank by a member of the bishopric and another Melchizedek Priesthood holder?</li></ul><b>Where a 24-hour depository is not available and the bank is closed on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received?</li><li>Are the funds always kept secure until they are deposited?</li><li>Are the funds always deposited into a Church-approved bank account on the first business day after they are opened and verified, unless an exception has been authorized by the assigned area office?</li><li>Before processing donations on the next Sunday, do a member of the bishopric and the ward clerk for finances always compare the previous week’s bank-validated deposit receipt to the previous week’s deposit records and sign the receipt to show they verified that the correct amount was deposited?</li></ul></text>
+        </record>
+        <record id="fss_lang:question_text:lookup.id.6589">
+            <text>For the year-end audit only: If a fundraising event was not held in the past 12 months, mark the question "N/A". If a fundraising event was held and met all the criteria below, mark the question "Yes." If the fundraising event was held and did not meet all the criteria below, mark the question "No."</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6589">
+            <text>For the year-end audit only: If a fundraising event was not held in the past 12 months, mark the question "N/A". If a fundraising event was held and met all the criteria below, mark the question "Yes." If the fundraising event was held and did not meet all the criteria below, mark the question "No."</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6249.6450.6590">
+            <text>For the selected donation batch, do the names, categories, and amounts on each Tithing and Other Offerings form match the corresponding information in the Church financial system?</text>
+        </record>
+        <record id="fss_lang:help_text:lookup.id.6613">
+            <text><p>See “Authorized approvals” and "Independent approvals" in the Definitions section.</p><p>If the payment was processed in LCR and has a transaction note indicating that there were not two authorized approvers, look for other evidence of two independent approvals (such as signatures on the copy of the check or receipt).</p>Review the unit signature card with the clerk to see if it is current. Encourage the clerk to update the signature card if it is not current. The lack of a current signature card alone does not result in an exception.</text>
+        </record>
+        <record id="fss_lang:question_text:lookup.id.6627">
+            <text>If the fast-offering recipient was the bishop or an immediate family member, were the bills and other expenses reviewed and the payment preapproved in writing by the stake president?</text>
+        </record>
+        <record id="fss_lang:converse_text:lookup.id.6627">
+            <text>One or more fast-offering payments for the bishop or a member of his immediate family were not reviewed or preapproved in writing by the stake president.</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6627">
+            <text>If the fast-offering recipient was the bishop or an immediate family member, were the bills and other expenses reviewed and the payment preapproved in writing by the stake president?</text>
+        </record>
+        <record id="fss_lang:help_text:lookup.id.6656">
+            <text><p>Ask the stake president and the stake clerk for finances to explain the stake’s process for preparing the deposit and depositing the funds in the bank.</p><i>Note:</i> As needed, help the stake president and the stake clerk for finances understand the importance of following the applicable process below:<br/><b>Where a 24-hour depository is available or the bank is open on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received?</li><li>Are the funds always deposited into a Church-approved bank account on the same day they are recorded?</li><li>Are the funds always taken to the bank by a member of the stake presidency and another Melchizedek Priesthood holder?</li></ul><b>Where a 24-hour depository is not available and the bank is closed on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received?</li><li>Are the funds always kept secure until they are deposited?</li><li>Are the funds always deposited into a Church-approved bank account on the first business day after they are recorded?</li><li>Before processing the next deposit, do a member of the stake presidency and the stake clerk for finances always compare the previous deposit’s bank-validated deposit receipt to the previous deposit’s records and sign the receipt to show they verified that the correct amount was deposited?</li></ul></text>
+        </record>
+        <record id="fss_lang:help_text:lookup.id.6657">
+            <text><p>Ask the stake president and the stake clerk for finances to explain the stake’s process for preparing the deposit and depositing the funds in the bank.</p><i>Note:</i> As needed, help the stake president and the stake clerk for finances understand the importance of following the applicable process below:<br/><b>Where a 24-hour depository is available or the bank is open on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received?</li><li>Are the funds always deposited into a Church-approved bank account on the same day they are opened and verified?</li><li>Are the funds always taken to the bank by a member of the stake presidency and another Melchizedek Priesthood holder?</li></ul><b>Where a 24-hour depository is not available and the bank is closed on Sundays:</b><ul><li>Did the unit verify and record the donations on the Sunday of the week they are received?</li><li>Are the funds always kept secure until they are deposited?</li><li>Are the funds always deposited into a Church-approved bank account on the first business day after they are recorded, unless an exception has been authorized by the assigned area office?</li><li>Before processing the next deposit, do a member of the stake presidency and the stake clerk for finances always compare the previous deposit’s bank-validated deposit receipt to the previous deposit’s records and sign the receipt to show they verified that the correct amount was deposited?</li></ul></text>
+        </record>
+        <record id="fss_lang:help_text:lookup.id.6660">
+            <text>Ask the following questions. If the answer to any question is no, mark “No.”<ul><li>Has the stake president adequately trained all bishops in the proper administration of welfare assistance, including fast offerings, use of self-reliance plans, and other principles, as outlined in section 22 of the <i>General Handbook</i>?</li><li>Did the stake president review with each bishop any unusual, large, or frequent fast-offering expenditures in the bishop’s ward?</li></ul></text>
+        </record>
+        <record id="fss_lang:question_text:lookup.id.6665">
+            <text>For the year-end audit only: If a fundraising event was not held in the past 12 months, mark the question "N/A." If a fundraising event was held and met all the criteria below, mark the question "Yes." If the fundraising event was held and did not meet all the criteria below, mark the question "No."</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6665">
+            <text>For the year-end audit only: If a fundraising event was not held in the past 12 months, mark the question "N/A." If a fundraising event was held and met all the criteria below, mark the question "Yes." If the fundraising event was held and did not meet all the criteria below, mark the question "No."</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6323.6526.6666">
+            <text>For the selected donation batch, does the cash receipt documentation match the corresponding information in the Church financial system?</text>
+        </record>
+        <record id="fss_lang:question_text:lookup.id.6613.6686">
+            <text>Does the payment have two independent and authorized approvals? If the payment was processed in LCR and the payment <u>does not</u> have a transaction note indicating a lack of proper approvals, the question should be answered “Yes.”</text>
+        </record>
+        <record id="fss_lang:help_text:lookup.id.6686">
+            <text><p>See “Authorized approvals” and “Independent approvals” in the Definitions section.</p><p>If the payment was processed in LCR and has a transaction note indicating that there were not two authorized approvers, look for other evidence of two independent approvals (such as signatures on the copy of the check or receipt).</p><p>Review the unit signature card with the clerk to see if it is current. Encourage the clerk to update the signature card if it is not current. The lack of a current signature card alone does not result in an exception.</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6613.6686.6686">
+            <text>Does the payment have two independent and authorized approvals? If the payment was processed in LCR and the payment <u>does not</u> have a transaction note indicating a lack of proper approvals, the question should be answered “Yes.”</text>
+        </record>
+        <record id="fss_lang:shortened_question_text:lookup.id.6376.6377.6473.6546.6613.6686">
+            <text>Two independent and authorized approvals</text>
+        </record>
+        <record id="fss_lang:abbr_question_text:lookup.id.6269.6270.6271.6272.6273.6274.6275.6276.6277.6278.6279.6280.6340.6341.6342.6343.6344.6345.6346.6347.6474.6475.6476.6477.6478.6479.6480.6481.6482.6483.6484.6485.6547.6548.6549.6550.6551.6552.6553.6554.6614.6615.6616.6617.6618.6619.6620.6621.6622.6623.6624.6625.6687.6688.6689.6690.6691.6692.6693.6694">
+            <text>Does the payment have proper support documents that match the Church financial system?</text>
+        </record>
+        <record id="site_wide_message_outline_lang:language_text:lookup.id.121">
+            <text>Links to the Area Auditor Resource Library (AARL) and the Audit Cycle Timeline are now available in the Help drop down menu by clicking the icon in the top right corner in LUFAS.</text>
+        </record>
+        <record id="site_wide_message_outline_lang:language_text:lookup.id.122">
+            <text>The paper audit submission screens were updated and now allow paper audits to be uploaded into LUFAS.</text>
+        </record>
+        <record id="site_wide_message_outline_lang:language_text:lookup.id.78">
+            <text>Area Auditors, Assistant Area Auditors, and Stake Audit Committees have a new dashboard to assist them in managing stake and ward audits. Training videos are available in English in the Area Auditor Resource Library for Area Auditors, Assistant Area Auditors, and Stake Audit Committee Chairmen.</text>
+        </record>
+        <record id="site_wide_message_outline_lang:language_text:lookup.id.79">
+            <text>Attached receipts to payments can now be rotated for easier viewing.</text>
+        </record>
+        <record id="site_wide_message_outline_lang:language_text:lookup.id.80">
+            <text>All comments can now be seen by all users and can be made at any point during the audit. A link to view all comments has been added to the audit dashboard.</text>
+        </record>
+        <record id="term_definition_lang:definition_text:lookup.id.55788">
+            <text>See Leaders and Clerks definition. Two authorized leaders must approve each expense; one of them must be a member of the stake presidency or bishopric. An authorized leader should not approve the expense if he is the payee. Note: if a transaction does not have a transaction note regarding lack of proper approvals, then the transaction was properly authorized in LCR.</text>
+        </record>
+        <record id="term_definition_lang:definition_text:lookup.id.55793">
+            <text>Each expense should have at least two authorized approvals, neither of which is the payee. </text>
+        </record>
+        <record id="term_definition_lang:definition_text:lookup.id.55795">
+            <text>See Leaders and Clerks definition. Two authorized leaders must approve each expense; one of them must be a member of the stake presidency or bishopric. An authorized leader should not approve the expense if he is the payee. Note: If a transaction does not have a transaction note regarding lack of proper approvals, then the transaction was properly authorized in LCR.</text>
+        </record>
+        <record id="term_definition_lang:definition_text:lookup.id.55782.55820">
+            <text>The funds for a specific activity in the “Local” category.</text>
+        </record>
+        <record id="term_definition_lang:term_text:lookup.id.55793.55830">
+            <text>Independent approvals:</text>
+        </record>
+        <record id="term_definition_lang:definition_text:lookup.id.55830">
+            <text>Each expense should have at least two authorized approvals, neither of which is the payee.</text>
+        </record>
+    </records>
+</doc>
