@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<doc exportdate="Fri 2023.12.01 07:25:16 PM IST" lang="en">
+<doc exportdate="Fri 2023.12.01 07:28:16 PM IST" lang="en">
     <head>
         <bundlecomment value="This contains application strings to be used in the LUFAS application."/>
         <bundlepackage value="lufas.resources"/>
